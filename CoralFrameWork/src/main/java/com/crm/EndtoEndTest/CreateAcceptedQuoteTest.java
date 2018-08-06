@@ -1,4 +1,4 @@
-package com.crm.EndtoEnd;
+package com.crm.EndtoEndTest;
 
 import java.io.IOException;
 import java.util.Iterator;

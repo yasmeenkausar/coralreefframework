@@ -54,7 +54,7 @@ public class CampaignTest extends BaseClass{
 	
 //Create campaign map product=============================================================	
 @Test
-	public void createCampMapProduct() throws IOException
+	public void createCampMapProductTest() throws IOException
 	{
 	WebDriverCommonLib wLib=new WebDriverCommonLib();
 	wLib.waitForPageToLoad();
@@ -74,7 +74,7 @@ public class CampaignTest extends BaseClass{
 	}
 // delete a campaign======================================================================
 	@Test
-	public void deleteCampaign() throws IOException
+	public void deleteCampaignTest() throws IOException
 	{
 		GenericLib glib=new GenericLib();
 		Properties pObj=glib.getPropertiesFileObj("./TestData/createCampMapProduct.properties");
