@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="abc.MyTest"/>
+      <class name="com.crm.CampaignTest.CampaignTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
