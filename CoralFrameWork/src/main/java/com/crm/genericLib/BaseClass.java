@@ -23,7 +23,6 @@ import org.testng.annotations.Parameters;
 
 import com.crm.ObjectRepository.Login;
 import com.crm.ObjectRepository.Logout;
-import com.relevantcodes.extentreports.ExtentReports;
 
 
 /**
@@ -33,13 +32,11 @@ import com.relevantcodes.extentreports.ExtentReports;
  */
 public class BaseClass{
 	public static WebDriver driver;
-	public ExtentReports extent;
-	
+		
 	@BeforeSuite
 	public void configBs()
 	{
-		 extent=new ExtentReports("./TestData/abc.html");
-		// extent.loadConfig(new File(""));
+				// extent.loadConfig(new File(""));
 		
 	}
 	@BeforeClass(groups= {"smokeTest","regressionTest"})
@@ -99,7 +96,6 @@ public class BaseClass{
 	@AfterSuite
 	public void configAftSuite()
 	{
-		extent.flush();
-	
+		
 	}
 }
