@@ -35,7 +35,7 @@ public class WebDriverCommonLib {
 	 */
 	public void select(WebElement swb,String value)
 	{
-		Select sel=new Select(swb);
+		Select sel=new Select(swb);   
 		sel.selectByVisibleText(value);
 	}
 	
