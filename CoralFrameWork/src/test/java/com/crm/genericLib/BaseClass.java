@@ -71,6 +71,7 @@ public class BaseClass{
 		driver.get(pObj.getProperty("Url"));
 		Login lp=PageFactory.initElements(driver, Login.class);
 		lp.login(pObj.getProperty("Username"), pObj.getProperty("password"));
+		System.out.println("Login");
 		
 	}
 	
