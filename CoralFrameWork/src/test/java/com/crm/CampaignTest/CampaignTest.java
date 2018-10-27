@@ -34,7 +34,7 @@ public class CampaignTest extends BaseClass{
 	
 	public void createCampTest() throws IOException
 	{
-//Get the data from the property file which is implemented in the Generic Lib		
+//Get the data from the property file which is implemented in the Generic Lib		 
 		GenericLib glib=new GenericLib();   
 		Properties pObj=glib.getPropertiesFileObj("./TestData/createCampMapProduct.properties");
 		String campaignName=pObj.getProperty("Campaignname");
