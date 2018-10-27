@@ -62,6 +62,7 @@ public class WebDriverCommonLib {
 		Actions act=new Actions(BaseClass.driver);
 		act.moveToElement(wb).perform();
 	}
+	
 	public void rightClick(WebElement wb)
 	{
 		Actions act=new Actions(BaseClass.driver);

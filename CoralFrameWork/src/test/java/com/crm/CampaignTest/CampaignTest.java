@@ -53,7 +53,7 @@ public class CampaignTest extends BaseClass{
 	}
 	
 //Create campaign map product=============================================================	
-@Test
+/*@Test
 	public void createCampMapProductTest() throws IOException
 	{
 	WebDriverCommonLib wLib=new WebDriverCommonLib();
@@ -85,7 +85,7 @@ public class CampaignTest extends BaseClass{
 		
 		Campaign cp=PageFactory.initElements(driver, Campaign.class);
 		cp.deleteCampaign();
-	}
+	}*/
 	}
 
 
